@@ -1,5 +1,6 @@
 nltk
 sumy
+numpy
 flask
 flask-socketio
 gunicorn
