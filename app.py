@@ -9,10 +9,6 @@ app = Flask(__name__)
 
 socket_io = SocketIO(app)
 
-print("DOWNLOADING PUNKT")
-nltk.download('punkt')
-print("FINISHED DOWNLOADING")
-
 
 @app.route('/')
 def hello_world():
